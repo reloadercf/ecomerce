@@ -43,18 +43,7 @@ addItem=(product)=>{
 }
 
 removeItem=(product)=>{
-  /*
-    if(item.amount >1){
-                item.amount-=1;
-            }else {item.amount =1}
 
-            return [ ...state.map( i => {
-              if(i.product.id === action.item.product.id){
-                  return item
-              }
-              return i
-            })];
-  */ 
   let {cart} = this.state
 
   let filtered = cart.items.filter(i=>{
